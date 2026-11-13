@@ -1,0 +1,17 @@
+TECHYTHRONE CTF // EVIDENCE PACKET 04
+CASE: PS-09 / NEXORA SYSTEMS
+FILE: transfer_agent.conf
+CLASSIFICATION: FICTIONAL TRAINING EVIDENCE
+
+[transfer]
+agent_name = nightly_archive_agent
+mode = review
+retry = 2
+
+# A note was appended by an unknown operator.
+# Decode the payload using Base64.
+payload = QVJDSElWRSBST09NIDM=
+
+# Expected answer format: TT{WORDS_WITH_UNDERSCORES}
+MISSION QUESTION:
+Decode the payload. What room is named?

@@ -1,0 +1,25 @@
+TECHYTHRONE CTF // EVIDENCE PACKET 01
+CASE: PS-09 / NEXORA SYSTEMS
+FILE: internal_message_2026-11-11.eml
+CLASSIFICATION: FICTIONAL TRAINING EVIDENCE
+
+From: lin.wei@nexora.example
+To: archive-ops@nexora.example
+Date: 11 November 2026, 21:14 UTC
+Subject: Re: Routine archive rotation — PROJECT MOONLIT
+
+Team,
+
+The scheduled archive rotation is complete. Please do not move the NX-900 prototype folder until the compliance review is finished.
+
+The temporary export was created only for the internal review. I used the project label from the subject line so the review team could find it quickly.
+
+Please confirm receipt. Do not reply-all.
+
+— Wei
+
+INVESTIGATOR NOTE:
+The email is fictional. The .example domain is reserved for documentation and cannot identify a real company.
+MISSION QUESTION:
+What project codename appears in the subject line?
+FLAG FORMAT: TT{PROJECT_CODENAME}

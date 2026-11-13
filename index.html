@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1018">
+  <meta name="description" content="Operation Phantom Silicon — a fictional digital investigation by TechyThrone.">
+  <title>Operation: Phantom Silicon | TechyThrone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="TechyThrone home">
+      <span class="brand-mark">T<span>T</span></span>
+      <span>TECHY<span class="green">THRONE</span><small>CYBERSECURITY DIVISION</small></span>
+    </a>
+    <div class="top-status"><span class="pulse"></span> SIMULATION ACTIVE <span class="divider">/</span> CASE 09-PS</div>
+    <a class="top-link" href="#briefing">MISSION BRIEF</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> CLASSIFIED INVESTIGATION // 13 NOV 2026</div>
+        <h1>OPERATION<br><span>PHANTOM</span> SILICON</h1>
+        <p class="hero-sub">THE SILICON SHADOW</p>
+        <p class="hero-description">A fictional corporate-espionage investigation. Follow the evidence, uncover the hidden transfer, and identify the operation before the trail goes cold.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#briefing">ENTER THE INVESTIGATION <span>↘</span></a>
+          <a class="btn btn-ghost" href="#rules">READ THE RULES</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract microchip illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="chip">
+          <div class="chip-inner"><span>NX</span><b>900</b><small>NEURAL PROCESSOR</small></div>
+        </div>
+        <div class="chip-label label-a">NX-900 / PROTOTYPE</div>
+        <div class="chip-label label-b">SIGNAL TRACE: <b>ACTIVE</b></div>
+        <div class="crosshair c1">+</div><div class="crosshair c2">+</div>
+      </div>
+      <div class="hero-footer"><span>TT // DIGITAL FORENSICS UNIT</span><span>UNAUTHORIZED DISCLOSURE DETECTED</span><span>SCROLL TO INVESTIGATE ↓</span></div>
+    </section>
+
+    <section class="briefing section" id="briefing">
+      <div class="section-kicker">01 / SITUATION REPORT</div>
+      <div class="brief-grid">
+        <div>
+          <h2>THE CASE<br>BEGINS HERE.</h2>
+          <p class="lead">A breakthrough processor. A missing blueprint. A trail of strange records.</p>
+        </div>
+        <div class="brief-text">
+          <p>Nexora Systems, a fictional semiconductor research company, has reported that confidential NX-900 prototype information may have been copied from an internal archive. Investigators found an unusual employee message, an image with unexpected metadata, a modified shipment record, and a short note containing Chinese text.</p>
+          <p>Your task is to examine the supplied evidence and connect the clues. Every organization, person, file, and event in this exercise is fictional and created for this CTF.</p>
+          <div class="alert-strip"><span>!</span><div><b>INVESTIGATOR NOTICE</b><br>Do not contact real organizations or attempt to access real systems. All evidence is synthetic and all activity is confined to this challenge.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intel-strip">
+      <div><small>CASE DESIGNATION</small><b>PS-09 / NX-900</b></div>
+      <div><small>CLASSIFICATION</small><b class="green">TRAINING SIMULATION</b></div>
+      <div><small>MISSIONS</small><b>06 INVESTIGATIONS</b></div>
+      <div><small>EST. DURATION</small><b>45–75 MIN</b></div>
+    </section>
+
+    <section class="missions section" id="missions">
+      <div class="section-kicker">02 / ACTIVE INVESTIGATIONS</div>
+      <div class="section-heading"><div><h2>FOLLOW THE<br><span class="green">EVIDENCE.</span></h2></div><p>Complete each mission in sequence. Submit the flag you discover to unlock the next evidence packet.</p></div>
+      <div class="mission-list" id="mission-list"></div>
+    </section>
+
+    <section class="workbench section" id="workbench">
+      <div class="section-kicker">03 / INVESTIGATOR WORKBENCH</div>
+      <div class="workbench-grid">
+        <div class="workbench-intro">
+          <h2 id="active-title">MISSION 01<br><span class="green">THE INSIDER'S MESSAGE</span></h2>
+          <p id="active-description">Review the internal message and identify the suspicious detail.</p>
+          <div class="file-card">
+            <div class="file-icon">TXT</div>
+            <div><b id="evidence-name">evidence_01_email.txt</b><small>TEXT EVIDENCE / UTF-8</small></div>
+            <a id="evidence-download" href="assets/evidence/evidence_01_email.txt" download>DOWNLOAD ↧</a>
+          </div>
+          <div class="hint-box"><b>FIELD HINT</b><p id="active-hint">Read the message carefully. Small details can matter more than dramatic claims.</p></div>
+        </div>
+        <div class="submission-panel">
+          <div class="panel-top"><span>FLAG SUBMISSION</span><span class="panel-lock">● SECURE CHANNEL (SIMULATED)</span></div>
+          <label for="flag-input">ENTER FLAG</label>
+          <div class="input-row"><input id="flag-input" type="text" placeholder="TT{your_answer_here}" autocomplete="off" spellcheck="false"><button id="submit-flag" class="btn btn-primary">SUBMIT ↗</button></div>
+          <p class="feedback" id="feedback" role="status">Awaiting investigator input.</p>
+          <div class="progress-wrap"><div class="progress-label"><span>CASE PROGRESS</span><b id="progress-count">0 / 6 COMPLETE</b></div><div class="progress-track"><div id="progress-bar"></div></div></div>
+          <div class="next-note" id="next-note">Complete Mission 01 to unlock the next evidence packet.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rules section" id="rules">
+      <div class="section-kicker">04 / RULES OF ENGAGEMENT</div>
+      <div class="rules-grid">
+        <div><span class="rule-no">01</span><h3>Stay in scope</h3><p>Only inspect the files and pages provided in this fictional exercise.</p></div>
+        <div><span class="rule-no">02</span><h3>Use your tools</h3><p>A browser, text editor, CyberChef, and metadata viewer are enough. No Linux VM required.</p></div>
+        <div><span class="rule-no">03</span><h3>Respect the evidence</h3><p>Chinese-language documents are included as fictional clues. Translation can help, but verify the original text.</p></div>
+        <div><span class="rule-no">04</span><h3>Submit flags</h3><p>Flags use the format <code>TT{...}</code>. Answers are case-sensitive only where indicated.</p></div>
+      </div>
+    </section>
+
+    <section class="finish" id="finish" hidden>
+      <div class="finish-mark">✓</div><div class="section-kicker">CASE CLOSED / SIMULATION COMPLETE</div>
+      <h2>YOU FOLLOWED<br><span class="green">THE SHADOW.</span></h2>
+      <p>All six investigation stages are complete. Report your completion to the TechyThrone CTF organizers.</p>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#"><span class="brand-mark">T<span>T</span></span><span>TECHY<span class="green">THRONE</span><small>CYBERSECURITY DIVISION</small></span></a><span>FICTIONAL TRAINING SCENARIO · NO REAL ORGANIZATIONS ARE DEPICTED</span><span>© TECHYTHRONE</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+TECHYTHRONE CTF // EVIDENCE PACKET 02
+CASE: PS-09 / NEXORA SYSTEMS
+FILE: prototype_photo_metadata.txt
+CLASSIFICATION: FICTIONAL TRAINING EVIDENCE
+
+Recovered image: nx900_prototype_export.jpg
+The original binary photograph is intentionally replaced by this metadata extract for the starter version of the CTF.
+
+EXIF METADATA EXTRACT
+--------------------------------
+FileName        : nx900_prototype_export.jpg
+DateTimeOriginal: 2026:11:10 18:42:09
+CameraModel     : NX Lab Imaging Unit 4
+Artist          : archive_temp
+ImageDescription: EAST WAREHOUSE / BAY 03
+Software        : PhotoExport 4.2
+--------------------------------
+
+INVESTIGATOR NOTE:
+Treat the ImageDescription field as the location clue. Convert the location to uppercase words separated by underscores.
+MISSION QUESTION:
+What location is recorded in ImageDescription?
+FLAG FORMAT: TT{LOCATION}

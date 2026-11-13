@@ -1,0 +1,32 @@
+TECHYTHRONE CTF // EVIDENCE PACKET 05
+CASE: PS-09 / NEXORA SYSTEMS
+FILE: vendor_reconciliation_note.txt
+CLASSIFICATION: FICTIONAL TRAINING EVIDENCE
+LANGUAGE: 简体中文 (SIMPLIFIED CHINESE) + ENGLISH GLOSS
+
+内部审计备忘录
+日期：2026年11月10日
+主题：异常供应商付款复核
+
+本周有三笔付款使用了相同的备注编号。财务团队要求核对供应商资料。
+供应商：玉港贸易
+英文登记名称：Jade Harbor Trading
+备注编号：JH-77
+付款用途：设备运输及仓储服务
+
+English investigator gloss:
+Internal audit memo
+Date: 10 November 2026
+Subject: Review of unusual vendor payments
+
+Three payments this week used the same reference. Finance requested a vendor record check.
+Supplier: 玉港贸易
+Registered English name: Jade Harbor Trading
+Reference: JH-77
+Payment purpose: equipment transport and storage services
+
+INVESTIGATOR NOTE:
+This is an invented vendor and fictional memo. The Chinese company name is a fictional rendering, not a real-world company.
+MISSION QUESTION:
+What is the registered English vendor name?
+FLAG FORMAT: TT{ENGLISH_NAME_WITH_UNDERSCORES}
